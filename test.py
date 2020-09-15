@@ -12,6 +12,10 @@ region = data['canonicalRegionName']
 compID = data['compartmentId']
 instanceID = data['id']
 
+print ("region: ".format(region))
+print ("compID: ".format(compID))
+print ("instanceID: ".format(instanceID))
+
 identity = oci.identity.IdentityClient(config={}, signer=signer)
 compute = oci.core.ComputeClient(config={}, signer=signer)
 network = oci.core.VirtualNetworkClient(config={}, signer=signer)
