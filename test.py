@@ -12,7 +12,7 @@ region = data['canonicalRegionName']
 compID = data['compartmentId']
 instanceID = data['id']
 
-print ("region: {} ".format(region))
+print ("region: {}".format(region))
 print ("compID: {}".format(compID))
 print ("instanceID: {}".format(instanceID))
 
